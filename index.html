@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/onsenui.min.css">
+    <link rel="stylesheet" href="css/onsen-css-components.min.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <script src="js/onsenui.min.js"></script>
+    <title>Curriculum Vitae</title>
+</head>
+
+<body>
+
+    <ons-page>
+        <ons-toolbar>
+            <div class="center">Biodata</div>
+        </ons-toolbar>
+
+        <ons-tabbar swipeable position="bottom">
+            <ons-tab page="biodata.html" label="Biodata" icon="md-account-box" active>
+            </ons-tab>
+            <ons-tab page="pendidikan.html" label="Pendidikan" icon="md-book-image">
+            </ons-tab>
+            <ons-tab page="portofolio.html" label="Portofolio" icon="md-cloud-done">
+            </ons-tab>
+        </ons-tabbar>
+    </ons-page>
+
+    <template id="biodata.html">
+        <ons-page id="biodata">
+            <div style="height: 200px; padding: 1px 0 0 0;">
+                <div class="card">
+                    <h2 class="card__title">Saya, Muhammad Dany Rosyada</h2>
+                    <div class="card__content">
+                        <ul class="list list--material">
+                            <p>Seorang lulusan baru dari bidang Teknologi yaitu Rekayasa Perangkat Lunak, yang sangat
+                                tertarik dengan dunia teknologi informasi dan juga pengembangan aplikasi, terutama
+                                aplikasi berbasis android.</p>
+                            <p>
+                                Memiliki pengalaman menggunakan beberapa web framework seperti Flutter sebagai frond-end
+                                dan back-end, Bootstrap sebagai front-end UI framework dan Flask sebagai back-end web
+                                framework, termasuk menggunakan laravel dan lumen.
+                            </p>
+                            <p>Saat ini sedang tertarik untuk belajar mengenai penerapan desain UI/UX yang baik serta
+                                tertarik untuk mempelajari beberapa web framework lain diantaranya Provider sebagai
+                                back-end dan Mvvm sebagai front-end.
+                            </p>
+                            <img src="img/profile.jpg" alt="" style="width: 100%;">
+                            <li class="list-header">
+                                Berikut data lengkap saya
+                            </li>
+                            <li class="list-item list-item--material">
+                                <div class="list-item__center list-item--material__center">
+                                    <div class="list-item__title list-item--material__title">Nama Lengkap</div>
+                                    <div class="list-item__subtitle list-item--material__subtitle">Muhammad Dany Rosyada
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-item list-item--material">
+                                <div class="list-item__center list-item--material__center">
+                                    <div class="list-item__title list-item--material__title">Lahir Pada</div>
+                                    <div class="list-item__subtitle list-item--material__subtitle">04 Juli 2001
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-item list-item--material">
+                                <div class="list-item__center list-item--material__center">
+                                    <div class="list-item__title list-item--material__title">Alamat</div>
+                                    <div class="list-item__subtitle list-item--material__subtitle">Pekalongan Jawa
+                                        Tengah
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-item list-item--material">
+                                <div class="list-item__center list-item--material__center">
+                                    <div class="list-item__title list-item--material__title">No Hp</div>
+                                    <div class="list-item__subtitle list-item--material__subtitle">0856 0152 6050
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </ons-page>
+    </template>
+
+    <template id="pendidikan.html">
+        <ons-page id="pendidikan">
+            <div>
+                <ul class="list list--material">
+                    <li class="list-header">
+                        Pendidikan yang telah di tempuh
+                    </li>
+                    <li class="list-item list-item--material">
+                        <div class="list-item__left list-item--material__left">
+                            <div class="container" style="margin-left:10px;">
+                                <i class="zmdi zmdi-bookmark zmdi-hc-2x"></i>
+                            </div>
+                        </div>
+                        <div class="list-item__center list-item--material__center">
+                            <div class="list-item__title list-item--material__title">Sekolah Dasar</div>
+                            <div class="list-item__subtitle list-item--material__subtitle">MSI 01 (2012-2013)
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-item list-item--material">
+                        <div class="list-item__left list-item--material__left">
+                            <div class="container" style="margin-left:10px;">
+                                <i class="zmdi zmdi-bookmark zmdi-hc-2x"></i>
+                            </div>
+                        </div>
+                        <div class="list-item__center list-item--material__center">
+                            <div class="list-item__title list-item--material__title">Sekolah Menengah Pertama</div>
+                            <div class="list-item__subtitle list-item--material__subtitle">SMP SALAFIYAH
+                                (2015-2016)
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-item list-item--material">
+                        <div class="list-item__left list-item--material__left">
+                            <div class="container" style="margin-left:10px;">
+                                <i class="zmdi zmdi-bookmark zmdi-hc-2x"></i>
+                            </div>
+                        </div>
+                        <div class="list-item__center list-item--material__center">
+                            <div class="list-item__title list-item--material__title">Sekolah Menengah Kejuruan</div>
+                            <div class="list-item__subtitle list-item--material__subtitle">SMK SYAFII AKROM
+                                (2018-2019)
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-item list-item--material">
+                        <div class="list-item__left list-item--material__left">
+                            <div class="container" style="margin-left:10px;">
+                                <i class="zmdi zmdi-bookmark zmdi-hc-2x"></i>
+                            </div>
+                        </div>
+                        <div class="list-item__center list-item--material__center">
+                            <div class="list-item__title list-item--material__title">Perguruan Tinggi</div>
+                            <div class="list-item__subtitle list-item--material__subtitle">STMIK Widya Pratama
+                                (2019-Sekarang)
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-header">
+                        Pengalaman Kerja
+                    </li>
+                    <li class="list-item list-item--material">
+                        <div class="list-item__left list-item--material__left">
+                            <div class="container" style="margin-left:10px;">
+                                <i class="zmdi zmdi-balance-wallet zmdi-hc-2x"></i>
+                            </div>
+                        </div>
+                        <div class="list-item__center list-item--material__center">
+                            <div class="list-item__title list-item--material__title">CV. GENPLUS</div>
+                            <div class="list-item__subtitle list-item--material__subtitle">Full Stack Android Developer
+                                (2019-2020)
+                                <p>
+                                    Memproduksi Aplikasi Online Khusus untuk Perbankan terutama Koperasi Simpan Pinjam
+                                    dan
+                                    Pembiayaan Syariah. Aplikasi dibuat untuk user teller shingga memudahkan saat
+                                    mengunjungi nasabah, Aplikasi dapat mencatat Rekening simpanan, Rekening pembiayaan,
+                                    mencetak struk dll
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-item list-item--material">
+                        <div class="list-item__left list-item--material__left">
+                            <div class="container" style="margin-left:10px;">
+                                <i class="zmdi zmdi-card-giftcard zmdi-hc-2x"></i>
+                            </div>
+                        </div>
+                        <div class="list-item__center list-item--material__center">
+                            <div class="list-item__title list-item--material__title">BOBO PANTS</div>
+                            <div class="list-item__subtitle list-item--material__subtitle">Facebook Ads Manager dan
+                                Desainer (2021)
+                                <p>Saya menjabat sebagai Facebook Ads Manager, dan Desainer produk.
+                                    Perusahan bergerak dibidang fashion wanita, pemasaran produk melalui iklan facebook
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-item list-item--material">
+                        <div class="list-item__left list-item--material__left">
+                            <div class="container" style="margin-left:10px;">
+                                <i class="zmdi zmdi-compass zmdi-hc-2x"></i>
+                            </div>
+                        </div>
+                        <div class="list-item__center list-item--material__center">
+                            <div class="list-item__title list-item--material__title">PT. CANDIKAVIDYA BUWARAN</div>
+                            <div class="list-item__subtitle list-item--material__subtitle">Manager dan Kepala Keuangan
+                                (2021-Sekarang)
+                                <p>
+                                    Perusahaan Kami bergerak dibidang Transportasi, Saya menjabat sebagai Manager, dan
+                                    Kepala Keuangan. Hal yang saya kerjakan memonitoring seluruh armada truk yang
+                                    beroperasi di seluruh indonesia, dan memenuhi kebutuhan seluruh armada.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </ons-page>
+    </template>
+
+    <template id="portofolio.html">
+        <ons-page id="portofolio">
+            <div style="padding: 1px 0 0 0;">
+                <div class="card">
+                    <img src="img/portofolio2.jpg" alt="..." style="width: 100%;">
+                    <h2 class="card__title">Genplus M2 Demo</h2>
+                    <div class="card__content">Berikut Aplikasi Perbankan versi demo yang bisa digunakan untuk tester
+                        komersil atau orang umum bisa di unduh di Play Store</div>
+                </div>
+            </div>
+            <div style="padding: 1px 0 0 0;">
+                <div class="card">
+                    <img src="img/portofolio1.jpg" alt="..." style="width: 100%;">
+                    <h2 class="card__title">Genplus M2 Demo V2</h2>
+                    <div class="card__content">Pengembangan Dari aplikasi versi sebelumnya, terdapat banyak metode
+                        pembiayaan yang beragam</div>
+                </div>
+            </div>
+        </ons-page>
+    </template>
+
+    <script type="text/javascript">
+        document.addEventListener('prechange', function (event) {
+            document.querySelector('ons-toolbar .center')
+                .innerHTML = event.tabItem.getAttribute('label');
+        });
+    </script>
+</body>
+
+</html>

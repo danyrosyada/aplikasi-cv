@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.mbp.appcv"
+    versionCode="10"
+    version   = "1.0.0">
+
+
+    <name>CV-Ku</name>
+
+    <description>
+    CV-Muhammad Dany Rosyada
+    </description>
+
+    <author href="" email="muhammaddany39@gmail.com">
+    MuhammadDanyRosyada
+    </author>
+
+</widget>
